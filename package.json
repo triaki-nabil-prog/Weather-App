@@ -1,0 +1,27 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "weather API data display app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/triaki-nabil-prog/Weather-App.git"
+  },
+  "author": "triaki nabil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/triaki-nabil-prog/Weather-App/issues"
+  },
+  "homepage": "https://github.com/triaki-nabil-prog/Weather-App#readme",
+  "devDependencies": {
+    "css-loader": "^6.7.3",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
