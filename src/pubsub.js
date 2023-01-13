@@ -3,6 +3,7 @@ let pubsub = {
     subscriptions: {
         weatherData:[],
         inputLocation:[],
+        error:[],
     },
 
     subscribe: function (subscriptionName, fn) {
