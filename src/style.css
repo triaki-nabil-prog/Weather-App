@@ -1,5 +1,4 @@
-
-.container{
+.container {
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -11,44 +10,63 @@
     font-size: 1.3rem;
 }
 
-.weather{
+.weather {
     background-color: rgba(255, 255, 255, 0.514);
+    padding: 20px;
 }
-.err{
+
+.search {
+    display: flex;
+}
+
+#location {
+    width: 50px;
+    flex: 1;
+    margin-right: 20px;
+}
+
+.err {
     text-align: center;
     padding-top: 10px;
 }
 
-.name{
+.name {
     font-size: 1.8rem;
 }
-.section-one{
-display: flex;
-justify-content: space-around;
-align-items: center;
-padding: 20px;
+
+.section-one {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
 }
-.temperature{
+
+.temperature {
     text-align: center;
     font-size: 2.8rem;
 }
-.unit{
+
+.unit {
     text-align: center;
 }
-.feel-section{
+
+.feel-section {
     display: flex;
     justify-content: space-around;
     padding-top: 20px;
 }
-.feel-section :nth-child(2):after{
+
+.feel-section :nth-child(2):after {
     content: "C";
     padding-left: 5px;
-    }
-.humidity-section{
+}
+
+.humidity-section {
     display: flex;
     justify-content: space-around;
 }
-.humidity-section :nth-child(2):after{
-content: "%";
-padding-left: 5px;
+
+.humidity-section :nth-child(2):after {
+    content: "%";
+    padding-left: 5px;
 }
