@@ -1,23 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    <input type="text" placeholder="location" id="location">
-    <button id="submit">submit</button>
-    <div class="err"></div>
-    <div class="name">...</div>
-    <img src="#" alt="weather" id="weather-icon">
-    <div class="main">...</div>
-    <div class="description">...</div>
-    <div class="temperature">...</div>
-    <div class="unit">kelvin</div>
-    <div>feels like</div>
-    <div class="feels-like"></div>
+    <div class="container">
+
+        <div class="weather">
+            
+            <div class="search">
+                <input type="text" placeholder="location" id="location">
+                <button id="submit">Search</button>
+            </div>
+            <div class="err"></div>
+            <div class="section-one">
+                
+                <img src="#" alt="weather" id="weather-icon">
+                <div class="location">
+                    <div class="name">...</div>
+                    <div class="main">...</div>
+                    <div class="description">...</div>
+                </div>
+            </div>
+            
+            <div class="temperature">...</div>
+            <div class="unit">Celsius</div>
+
+
+            
+
+            <div class="feel-section">
+                <div>Feels like</div>
+                <div class="feels-like"></div>
+            </div>
+            <div class="humidity-section">
+                <div>Humidity</div>
+                <div class="humidity"></div>
+            </div>
+        </div>
+
+    </div>
+
+
     <script src="main.js"></script>
+
 </body>
+
 </html>
