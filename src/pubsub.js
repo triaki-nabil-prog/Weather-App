@@ -3,6 +3,7 @@ let pubsub = {
     subscriptions: {
         weatherData:[],
         inputLocation:[],
+        weatherMain:[],
         error:[],
     },
 
